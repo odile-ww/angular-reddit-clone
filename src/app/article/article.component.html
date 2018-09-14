@@ -1,0 +1,22 @@
+<div class="col-3 rounded mb-3">
+  <div class="value h1">{{ article.votes }}</div>
+  <div class="label h5 text-uppercase">Points</div>
+</div>
+<div class="col-9 pl-3">
+  <a href="{{ article.link }}" target="_blank"><h2>{{ article.title }}</h2></a>
+  <div class="meta">({{ article.domain() }})</div>
+  <ul class="list-inline mt-3">
+    <li class="list-inline-item mr-3">
+      <a href (click)="voteUp()" class="text-info font-weight-bold">
+        <i class="fa fa-thumbs-up"></i>
+        upvote
+      </a>
+    </li>
+    <li class="list-inline-item">
+        <a href (click)="voteDown()" class="text-info font-weight-bold">
+          <i class="fa fa-thumbs-down"></i>
+          downvote
+        </a>
+    </li>
+  </ul>
+</div>
