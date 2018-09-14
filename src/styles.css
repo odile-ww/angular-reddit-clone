@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* header styles */
+.navbar-brand {
+  flex-basis: 100%;
+}
+.fa-paper-plane{
+  margin-right: 1.2em;
+}
