@@ -16,7 +16,6 @@ export class ArticleComponent implements OnInit {
   @Input() article: Article;
 
   constructor() {
-
   }
 
   voteUp(): boolean {
