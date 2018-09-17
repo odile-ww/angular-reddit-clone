@@ -1,5 +1,7 @@
 # AngularRedditClone
 
+This is a code-along exercise from **ng-book**. For CSS, SemanticUI has been replaced with Bootstrap.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
